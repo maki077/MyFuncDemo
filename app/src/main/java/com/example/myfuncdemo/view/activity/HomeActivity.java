@@ -54,6 +54,11 @@ public class HomeActivity extends BaseActivity {
         func.funcName = "伸缩toolbar CoordinatorLayout";
         func.itemClass = CollapsingActivity.class;
         funcList.add(func);
+
+        func = new FuncBean();
+        func.funcName = "Rxjava的方法使用";
+        func.itemClass = RxJavaDemoActivity.class;
+        funcList.add(func);
     }
 
     public void init() {
